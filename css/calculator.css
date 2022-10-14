@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Digital;
+  src: url(../fonts/digital-7.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#calculator, #top, #border, #screen, .controller, .button, .longButton {
+  border-radius: 10px;
+}
+
+#calculator, #border {
+  padding: 5px;
+}
+
+#calculator {
+  width: 50%;
+  margin: 20% auto;
+  background-color: black;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+#top {
+  background-color: black;
+}
+
+#border {
+  background-color: #4D5355;
+}
+
+#screen {
+  background-color: #7096B4;
+  text-align: right;
+  font-family: Digital;
+  color: white;
+  padding-right: 10px;
+  overflow: auto;
+}
+
+#screen #operation {
+  font-size: 50px;
+}
+
+#screen #result {
+  font-size: 20px;
+  text-align: right;
+}
+
+.controller {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.button, .longButton {
+  background-color: #dbd6d3;
+  box-shadow: 5px 5px #A19A94;
+  text-align: center;
+  line-height: 50px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.switch {
+  font-size: 20px;
+}
+
+#screen {
+  background-color: #6699ff;
+  font-family: Digital;
+  color: white;
+  text-align: right;
+}
+
+/* Only color settings */
+.white {
+  color: white;
+}
+
+.bg-red {
+  background-color: #C30001;
+  box-shadow: 5px 5px #960000;
+}
+
+.bg-green {
+  background-color: #02B41C;
+  box-shadow: 5px 5px #06780D;
+}
+
+.bg-blue {
+  background-color: #216AA7;
+  box-shadow: 5px 5px #0E4F87;
+}
+
+.bg-emerald {
+  background-color: #25EC98;
+  box-shadow: 5px 5px #10C27B;
+}

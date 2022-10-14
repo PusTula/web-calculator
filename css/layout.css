@@ -1,0 +1,25 @@
+
+
+/* Grid doesn't work with ID */
+/* HAVE TO FIGURE IT OUT
+#controller {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr);
+}
+*/
+
+.controller {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem 0.6rem;
+}
+
+/* Place the buttont text to the middle */
+.button {
+  display: grid;
+  place-items: center; /* instead of align-items and justify-items */
+}
+
+.longButton {
+  grid-row: span 2;
+}
