@@ -8,11 +8,11 @@
   padding: 0;
 }
 
-#calculator, #top, #border, #screen, .controller, .button, .longButton {
+#calculator, .top, .border, .display, .controller, .button, .longButton {
   border-radius: 10px;
 }
 
-#calculator, #border {
+#calculator, .border {
   padding: 5px;
 }
 
@@ -23,16 +23,17 @@
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 
-#top {
+.top {
   background-color: black;
 }
 
-#border {
+.border {
   background-color: #4D5355;
 }
 
-#screen {
-  background-color: #7096B4;
+.display {
+  background-color: #6699FF;
+  min-height: 85px;
   text-align: right;
   font-family: Digital;
   color: white;
@@ -40,11 +41,11 @@
   overflow: auto;
 }
 
-#screen #operation {
+.display .operation {
   font-size: 50px;
 }
 
-#screen #result {
+.display .result {
   font-size: 20px;
   text-align: right;
 }
@@ -71,8 +72,8 @@
   font-size: 20px;
 }
 
-#screen {
-  background-color: #6699ff;
+.display {
+  background-color: black;
   font-family: Digital;
   color: white;
   text-align: right;
